@@ -1,0 +1,62 @@
+.parentContainer {
+    display: flex;
+     background-color:darkgreen ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-areas: "Today's Hours" "" "" "" "" "" "" "Donate" "Tickets" "Membership";}
+   
+   .background{
+ image:
+ max-width: 200px;
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+ margin: 10px;
+ height: 200px;
+   }
+  
+ .grid{
+ display: flex;
+ padding: 10px;
+ margin: 10px;
+ height: 200px;
+ }
+ .button{
+ 
+ display: flex;
+ padding: 10px;
+ margin: 10px;
+ height: 200px;
+ transition: 0.5 ease;
+ 
+ #BuyTickets{
+     background-color: red;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 10px;
+   }
+   #PlanAVisit {
+       background-color:blueviolet;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+       font-size: 10px;
+ }
+ #sponsorship {
+     background-color: chocolate;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 10px;}
+ }
+ 
+ .button:hover{
+     background-color: blanchedalmond;
+ }
+ 
+ .footer {
+     display: flex;
+     justify-content: space-evenly;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-areas: "Buy Tickets" "Plan A Visit" "Sponsorship"}
+     background-color: red;
+     font-family: "Georgia, "Times New Roman", Times, serif";
+     font-size: 10px;
+ 
+ 
